@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid gray;
 }
 
 html, body {
@@ -66,10 +67,49 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+header img {
+    margin-left: 29%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding-top: 4%;
+    padding-left: 0;
+    margin-left: 6%;
+    padding-right: 8%
+}
+header .container {
+    margin-left: 0%;
+    padding-left: 0;
+}
+
+header .container a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -95,22 +135,117 @@ p {
     margin-bottom: 0;
 }
 
+
+/* Colored Boxes */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Colored Boxes */
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +278,174 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container.about-page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Strategy Style */
+.strategy {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 50%;
+}
+.strategy-text-container {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.strategy-text-container h2 {
+    padding: 0;
+    margin-top: 1.5%;
+    font-weight: 575;
+}
+.strategy-text-container p {
+    margin-bottom: 6%;
+    font-weight: 575;
+}
+
+.strategy-text-container a {
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 575;
+}
+/* End Strategy Style */
+
+
+/* Working Style */
+.working {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 50%;
+}
+.working-text-container {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.working-text-container h2 {
+    padding: 0;
+    margin-top: 1.5%;
+    font-weight: 575;
+}
+.working-text-container p {
+    margin-bottom: 6%;
+    font-weight: 575;
+}
+
+.working-text-container a {
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 575;
+}
+/* End Working Style */
+
+
+/* Places Style */
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 50%;
+}
+.places-text-container {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.places-text-container h2 {
+    padding: 0;
+    margin-top: 1.5%;
+    font-weight: 575;
+}
+.places-text-container p {
+    margin-bottom: 6%;
+    font-weight: 575;
+}
+
+.places-text-container a {
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 575;
+}
+/* End Places Style */
+
+
+/* Collaboration Style */
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 50%;
+}
+.collaboration-text-container {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.collaboration-text-container h2 {
+    padding: 0;
+    margin-top: 1.5%;
+    font-weight: 575;
+}
+.collaboration-text-container p {
+    margin-bottom: 6%;
+    font-weight: 575;
+}
+
+.collaboration-text-container a {
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 575;
+}
+/* End Collaboration Style */
+
+.together p {
+    margin-bottom: 4%;
 }
